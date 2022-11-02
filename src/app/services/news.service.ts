@@ -1,6 +1,5 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { environment } from 'src/environments/environment';
 
 
 @Injectable({
@@ -10,8 +9,8 @@ import { environment } from 'src/environments/environment';
 export class NewsService {
 
   constructor(private http:HttpClient) { }
-  base_url:string=environment.BASE_API;
-  api_key:string=environment.API_KEY;
+  base_url:string='https://newsapi.org/v2';
+  api_key:string="7330f3932dd24ef4ac3fd70b62d9bf12";
   getSource(){
       return this.http.get(`${this.base_url}/sources?language=en&apiKey=${this.api_key}`);
   }
