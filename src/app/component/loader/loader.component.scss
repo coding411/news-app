@@ -1,0 +1,16 @@
+
+//variables
+$baseColor : #021061;
+$fontColor : rgb(1, 2, 54);
+
+body{
+  background: $baseColor;
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+svg{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  display:inline-block;
+}
