@@ -1,6 +1,11 @@
 # NewsApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
+![Uploading Screenshot 2022-11-02 122047.png…]()
+
+![Screenshot 2022-11-02 122111](https://user-images.githubusercontent.com/67528018/199413341-b77dcbed-3746-410c-b518-8ec1666b1666.png)
+
+
 
 ## Development server
 
